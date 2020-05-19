@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#addAccountsView{
+	display: none;
+}
+#addAccountsView input{
+	color: #000;
+}
+.hide-data{
+	display: none;
+}
+#editAccountsView{
+	display: none;
+}
+#editAccountsView input{
+	color: #000;
+}
+#edit-delete{
+	display: none;
+	border: none;
+	text-align:left;
+}
+#editBtn{
+	width: 59px;
+	font-size: 15px;
+	padding: 0;
+}
+#deleteBtn{
+	width: 60px;
+	font-size: 15px;
+	padding: 0;
+}
+#accounts-details{
+	text-align:left;
+	display: none;
+}
+#accounts-details input {
+	border: 1px solid black;
+	color: #000;
+	font-weight: 600;
+}
+#details{
+	border: none;
+}
+#detailsBtn{
+	width: 124px;
+	font-size: 15px;
+	padding: 0;
+}
+#detailId{
+	margin-top: 31px;
+}
+
+#search-view{
+	min-width: 200px;
+}
+.backward{
+	margin-left: 81%;
+	display: inline;
+}
+#one-edit-delete{
+	border: none;
+	text-align:left;
+}
+#oneEditBtn, #oneDeleteBtn, #oneDetailsBtn{
+	font-size: 15px;
+	padding: 0;
+	
+}
+#oneDetailsBtn{
+	width: 60px;
+	margin-right: -35px;
+}
+#oneEditBtn{
+	width: 40px;
+}
+#oneDeleteBtn{
+	width: 50px;
+}

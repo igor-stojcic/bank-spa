@@ -1,0 +1,14 @@
+function makeCityes() {
+	let gradoviSrbija = ["City...", "Aleksandrovac", "Aleksinac", "Alibunar", "Apatin", "Aranđelovac", "Arilje", "Babušnica", "Bajina Bašta", "Batočina", "Bač", "Bačka Palanka", "Bačka Topola", "Bački Petrovac", "Bela Palanka", "Bela Crkva", "Beograd - Barajevo", "Beograd - Voždovac", "Beograd - Vračar", "Beograd - Grocka", "Beograd - Zvezdara", "Beograd - Zemun", "Beograd - Lazarevac", "Beograd - Mladenovac", "Beograd - Novi Beograd", "Beograd - Obrenovac", "Beograd - Palilula", "Beograd - Rakovica", "Beograd - Savski venac", "Beograd - Sopot", "Beograd - Stari grad", "Beograd - Surčin", "Beograd - Čukarica", "Beočin", "Bečej", "Blace", "Bogatić","Bojnik", "Boljevac", "Bor", "Bosilegrad", "Brus", "Bujanovac", "Valjevo", "Varvarin", "Velika Plana", "Veliko Gradište", "Vitina", "Vladimirci", "Vladičin Han", "Vlasotince", "Vranje", "Vranjska Banja", "Vrbas", "Vrnjačka Banja", "Vršac", "Vučitrn", "Gadžin Han", "Glogovac", "Gnjilane", "Golubac", "Gora", "Gornji Milanovac", "Despotovac", "Dečani", "Dimitrovgrad", "Doljevac", "Đakovica", "Žabalj", "Žabari", "Žagubica", "Žitište", "Žitorađa", "Zaječar", "Zvečan", "Zrenjanin", "Zubin Potok", "Ivanjica", "Inđija", "Irig", "Istok", "Jagodina", "Kanjiža", "Kačanik", "Kikinda", "Kladovo", "Klina", "Knić", "Knjaževac", "Kovačica", "Kovin", "Kosjerić", "Kosovo Polje","Kosovska Kamenica", "Kosovska Mitrovica", "Kostolac", "Koceljeva", "Kragujevac", "Kraljevo", "Krupanj", "Kruševac", "Kula", "Kuršumlija", "Kučevo", "Lajkovac", "Lapovo", "Lebane", "Leposavić", "Leskovac", "Lipljan", "Loznica", "Lučani", "Ljig", "Ljubovija", "Majdanpek", "Mali Zvornik", "Mali Iđoš", "Malo Crniće", "Medveđa", "Merošina", "Mionica", "Negotin", "Niška Banja", "Niš - Medijana", "Niš - Palilula", "Niš - Pantelej", "Niš - Crveni Krst", "Nova Varoš", "Nova Crnja", "Novi Bečej", "Novi Kneževac", "Novi Pazar", "Novi Sad", "Novo Brdo", "Obilić", "Opovo", "Orahovac", "Osečina", "Odžaci", "Pančevo", "Paraćin", "Petrovaradin", "Petrovac na Mlavi", "Peć", "Pećinci", "Pirot", "Plandište", "Podujevo", "Požarevac", "Požega", "Preševo", "Priboj", "Prizren", "Prijepolje", "Priština", "Prokuplje", "Ražanj", "Rača", "Raška", "Rekovac", "Ruma", "Svilajnac", "Svrljig", "Sevojno", "Senta", "Sečanj", "Sjenica", "Smederevo", "Smederevska Palanka", "Sokobanja", "Sombor", "Srbica", "Srbobran", "Sremska Mitrovica", "Sremski Karlovci", "Stara Pazova", "Subotica", "Suva Reka", "Surdulica", "Temerin", "Titel", "Topola", "Trgovište", "Trstenik", "Tutin", "Ćićevac", "Ćuprija", "Ub", "Užice","Uroševac", "Crna Trava", "Čajetina", "Čačak", "Čoka", "Šabac", "Šid", "Štimlje", "Štrpce"];
+	let text = '';
+	for (let i = 0; i < gradoviSrbija.length; i++) {
+		text += `<option>${gradoviSrbija[i]}</option>`;
+	}
+	cityEdit.innerHTML = text;
+	cityInput.innerHTML = text;
+	onecityEdit.innerHTML = text;
+}
+
+
+
+
